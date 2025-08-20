@@ -1,6 +1,8 @@
 [Home](../)
 
-# MemberSense
+# MemberSense DELETE
+
+Moved into feed/membersense
 
 A powerful Bun app for the Discord API (and later Microsoft Outlook) which securely manages private keys in both Github and the .env.local file. Integrated as a Zoom-style grid display within our [FeedPlayer Frontend](https://dreamstudio.com/feed/).
 
