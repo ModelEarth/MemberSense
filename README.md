@@ -75,11 +75,14 @@ MemberSense
 
 ## Backend Setup (Development)
 
+Bun handles dependency isolation per project folder,  
+so there is no there is no use of a virtual environment as there is with Python venv. 
+
 1. **Clone and install**
    ```bash
    git clone https://github.com/yourusername/membersense.git
    cd membersense/backend
-   bun install
+   bun install  # installs dependencies into ./node_modules
    ```
 
 2. **Configure environment**  
@@ -97,13 +100,13 @@ MemberSense
 
 4. **Run the server**
    ```bash
-   bun run server.js
+   bun run src/server.js
    ```
    Server runs on `http://localhost:3000`.
 
 5. **Development mode**
    ```bash
-   bun --hot run server.js
+   bun --hot run src/server.js
    ```
 
 6. **API Endpoints**
